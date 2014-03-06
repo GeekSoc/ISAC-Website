@@ -2,7 +2,7 @@
 require:
 - jekyll-compass
 - bootstrap-sass
-project_path: C:/Users/Robert/Desktop/ISAC/
+project_path: ./
 http_path: /
 css_dir: css
 sass_dir: _sass
