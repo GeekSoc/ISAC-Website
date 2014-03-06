@@ -1,0 +1,6 @@
+name: Geeksoc ISAC
+markdown: redcarpet
+pygments: false
+gems:
+- jekyll-compass
+destination: public_html

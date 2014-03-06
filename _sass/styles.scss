@@ -1,0 +1,84 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+
+body{
+ // background-image: url("../img/bg_logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:20% 100%;
+  padding-bottom: 70px;
+}
+
+.navbar-fixed-bottom{
+
+}
+
+.nav-logo{
+  background-image: url("../img/brand_logo.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  width: 100px
+}
+
+#main { 
+  background: #3B3B3B;
+  height: 1000px;
+  border-radius: 4px;
+  border-color: darken($navbar-default-bg, 6.5%);
+  border: 1px solid transparent;
+}
+
+.content {
+  padding: 10px 44px;
+}
+
+.text {
+  border-bottom: 1px solid #262626;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.text h2 {
+  color: #E5E5E5;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.counter {
+  background: #2C2C2C;
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+  min-height: 150px;
+  text-align: center;
+}
+
+.counter h3 {
+  color: #E5E5E5;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#countdown {
+  color: #FFFFFF;
+}
+
+#countdown span {
+  color: #E5E5E5;
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
