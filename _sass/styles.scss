@@ -12,7 +12,13 @@ body{
 }
 
 .navbar-fixed-bottom{
+  height: 50px;
+  min-height: 50px;
+}
 
+.navbar-fixed-bottom .navbar-text{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .nav-logo{
@@ -82,3 +88,8 @@ body{
   margin-right: 20px;
   text-align: center;
 }
+
+#leftcolumn { width: 48%; float: left}
+#rightcolumn { width: 48%; float: right}
+
+
